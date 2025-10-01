@@ -56,7 +56,7 @@ docker build -t "abios-api:latest" .
 
 docker run --rm -it \
   -p 8080:8080 \
-  -e ABIOS_TOKEN=""0723134a4c9f4387b877fcf816454dd4"" \
+  -e ABIOS_TOKEN="<your_abios_token>" \
   abios-api
 
 ```
