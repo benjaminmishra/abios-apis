@@ -38,16 +38,6 @@ This service wraps the Abios public Atlas API with a lightweight HTTP server tha
 - Expand integration tests that hit a mocked Abios server to validate end-to-end behaviour.
 - Introduce caching of roster and team lookups to reduce duplicate upstream requests.
 
-## Default config values 
-
-
-- `ABIOS_TOKEN` "https://atlas.abiosgaming.com/v3"
-- `ABIOS_API_BASE_URL` "0723134a4c9f4387b877fcf816454dd4"
-- `ABIOS_CLIENT_REQ_TIMEOUT_SEC` 10
-- `ABIOS_CLIENT_RATE_LIMIT_PERSEC` 5
-- `ABIOS_CLIENT_RATE_LIMIT_BURST` 10
-
-
 ## Docker Run 
 
 ```bash
