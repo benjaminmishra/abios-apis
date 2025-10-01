@@ -1,0 +1,24 @@
+# @name hostname
+# Set the base URL for the API
+@hostname = http://localhost:8080
+
+###
+# Get Live Series
+#
+# Retrieves a list of all currently live series.
+GET http://localhost:8080/series/live
+Accept: application/json
+
+###
+# Get Live Players
+#
+# Retrieves a list of all players participating in live series.
+GET http://localhost:8080/players/live
+Accept: application/json
+
+###
+# Get Live Teams
+#
+# Retrieves a list of all teams participating in live series.
+GET http://localhost:8080/teams/live
+Accept: application/json
